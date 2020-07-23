@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <?php include 'links.php'; ?>
+    <?php include 'css/styles.php'; ?>
+
+    <title>Corona</title>
+</head>
+
+<body onload="fetch()">
+    <nav class="navbar navbar-expand-lg nav p-3">
+        <a class="navbar-brand pl-5" href="#">COVID-19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto pr-3 text-capitalize">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#symptoms">symptoms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#preventions">preventions</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid ">
+
+        <div class="row ">
+            <div class="col-lg-5 text-center ">
+                <img src="photios/background.png" class="imgcorona">
+            </div>
+            <div class="col-lg-7  textagainst">
+                <h1>Let's Stay Safe & Fight Together Against Cor<span class="imgcorona2">
+                        <img src="photios/coronavirus-r.png" width="60px" height="60px"></span>na Virus</h1>
+            </div>
+        </div>
+    </div>
+    <section class="corona_update container-fluid">
+        <div class="mb-3">
+            <h2 class="text-center text-centeri text-uppercase">covid-19 updates</h2>
+        </div>
+        <div class="d-flex  justify-content-around align-items-center">
+            <div class="table-responsive">
+                <table class=" table table-bordered table-striped text-center" id="tbval">
+                    <tr>
+                        <th>Country</th>
+                        <th>TotalConfirmed</th>
+                        <th>TotalRecoverd</th>
+                        <th>TotalDeaths</th>
+                        <th>NewConfirmed</th>
+                        <th>NewRecoverd</th>
+                        <th>NewDeaths</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid sub_section pt-5 pb-5" id="about">
+        <div class="section_header text-center text-centeri mb-5 mt-5 ">
+            <h1>About COVID-19</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-12 text-center  ">
+                <img src="photios/corona-virus.jpg " width="380px" height="270px" class="photo3rd">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt-3">
+                <h2>What is COVID-19 (Corona-virus) </h2>
+                <p>An outbreak of the coronavirus (now called COVID-19) in China
+                    is causing global concern. It came from a seafood and meat market
+                    in Wuhan, China, in December. It has since spread to other countries,
+                    including the United States.</p>
+                <p>A coronavirus is a type of common virus that can infect your nose,
+                    sinuses, or upper throat. They can spread much like cold viruses.
+                    Almost everyone gets a coronavirus infection at least once in their life,
+                    most likely as a young child.
+                    Most coronaviruses are not dangerous, but some are. Those that
+                    cause Middle East respiratory syndrome (MERS) or severe acute respiratory
+                    syndrome (SARS ) can be deadly.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sub_section pt-5 pb-5" id="symptoms">
+        <div class="section_header text-center text-centeri mb-5 mt-5 ">
+            <h1>Symptoms</h1>
+        </div>
+        <div class="container-fluid col-sm-11 ">
+            <p>COVID-19 is a respiratory condition caused by a coronavirus.
+                Some people are infected but don’t notice any symptoms. Most
+                people will have mild symptoms and get better on their own. But
+                about 1 in 6 will have severe problems, such as trouble breathing.
+                The odds of more serious symptoms are higher if you’re older or have
+                another health condition like diabetes or heart disease.
+                Here’s what to look for if you think you might have COVID-19.</p>
+            <P>Researchers in China found that the most common symptoms among people who were hospitalized with COVID-19 include:
+                <ul class="list">
+                    <li>Fever: 99%</li>
+                    <li>Fatigue:70%</li>
+                    <li>A dry cough: 59%</li>
+                    <li>Loss of appetite: 40%</li>
+                    <li>Body aches: 35%</li>
+                    <li>Shortness of breath: 31%</li>
+                    <li>Mucus or phlegm: 27%</li>
+                </ul>
+                Symptoms usually begin 2 to 14 days after you come into contact with the virus.
+
+                Other symptoms may include:
+                <ul class="list">
+                    <li>Sore throat</li>
+                    <li>Headache</li>
+                    <li>Chills, sometimes with shaking</li>
+                    <li> Loss of smell or taste</li>
+                    <li>Congestion or runny nose</li>
+                    <li> Nausea or vomiting</li>
+                    <li>Diarrhea</li>
+
+                </ul>
+                <h3> Emergency Symptoms</h3>
+                Call a doctor or hospital right away if you have one or more of these COVID-19 symptoms:
+                <ul class="list">
+                    <li>Trouble breathing</li>
+                    <li>Constant pain or pressure in your chest</li>
+                    <li> Bluish lips or face</li>
+                    <li>Sudden confusion</li>
+                </ul>
+                You need medical care as soon as possible. Call your doctor’s office or hospital before you go
+                in. This will help them prepare to treat you and protect medical staff and other patients.
+
+                Strokes have also been reported in some people who have COVID-19. Remember FAST:
+                <ul class="list">
+                    <li><B>Face.</B> Is one side of the person’s face numb or drooping? Is their smile lopsided?</li>
+                    <li><B>Arms.</B> Is one arm weak or numb? If they try to raise both arms, does one arm sag?</li>
+                    <li><B>Speech.</B> Can they speak clearly? Ask them to repeat a sentence.</li>
+                    <li><B>Time. </B>Every minute counts when someone shows signs of a stroke.</li>
+                </ul>
+
+                Lab tests can tell if COVID-19 is what’s causing your symptoms. But the tests can be hard
+                to find, and there’s no treatment if you do have the disease. So you don’t need to get
+                tested if you have no symptoms or only mild ones. Call your doctor or your local health
+                department if you have questions.
+            </P>
+        </div>
+    </div>
+    <div class="container-fluid sub_section pt-5 pb-5" id="preventions">
+        <div class="section_header text-center text-centeri mb-5 mt-5 ">
+            <h1>Preventions</h1>
+        </div>
+        <div class="container-fluid col-sm-11 ">
+            <P>Protect yourself and others around you by knowing the facts and taking appropriate
+                precautions. Follow advice provided by your local health authority.</P>
+            <h5>To prevent the spread of COVID-19:</h5>
+            <ul class="list">
+                <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
+                <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
+                <li>Wear a mask when physical distancing is not possible.</li>
+                <li>Don’t touch your eyes, nose or mouth.</li>
+                <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+                <li>Stay home if you feel unwell.</li>
+                <li>If you have a fever, cough and difficulty breathing, seek medical attention.</li>
+            </ul>
+            <p>Calling in advance allows your healthcare provider to quickly direct you to the right health facility.
+                This protects you, and prevents the spread of viruses and other infections.</p>
+            <h4>Masks</h4>
+            <p>Masks can help prevent the spread of the virus from the person wearing the mask to others.
+                Masks alone do not protect against COVID-19, and should be combined with physical
+                distancing and hand hygiene. Follow the advice provided by your local health authority.</p>
+        </div>
+    </div>
+    <div class="container scrolltop float-right pr-5">
+        <i class="fa fa-arrow-up " onclick="topFunction()" id="btn22"></i>
+    </div>
+
+    <footer class="page-footer ">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright : Dharmender
+        </div>
+    </footer>
+    <script type="text/javascript">
+        mybutton = document.getElementById("btn22");
+        window.addEventListener("scroll", function() {
+            scrollFunction();
+        });
+
+        function scrollFunction() {
+            console.log(document.documentElement.scrollTop);
+            if (window.scrollY > 100) {
+                document.getElementById("btn22").style.display = "block";
+            } else {
+                document.getElementById("btn22").style.display = "none";
+            }
+
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function fetch() {
+            $.getJSON("https://api.covid19api.com/summary",
+                function(data) {
+                    var tbval = document.getElementById("tbval")
+                    for (var i = 1; i < (data["Countries"].length); i++) {
+                        var x = tbval.insertRow();
+                        x.insertCell(0);
+                        tbval.rows[i].cells[0].innerHTML = data["Countries"][i-1]['Country'];
+                        x.insertCell(1);
+                        tbval.rows[i].cells[1].innerHTML = data["Countries"][i-1]['TotalConfirmed'];
+                        x.insertCell(2);
+                        tbval.rows[i].cells[2].innerHTML = data["Countries"][i-1]['TotalRecovered'];
+                        x.insertCell(3);
+                        tbval.rows[i].cells[3].innerHTML = data["Countries"][i-1]['TotalDeaths'];
+                        x.insertCell(4);
+                        tbval.rows[i].cells[4].innerHTML = data["Countries"][i-1]['NewConfirmed'];
+                        x.insertCell(5);
+                        tbval.rows[i].cells[5].innerHTML = data["Countries"][i-1]['NewRecovered'];
+                        x.insertCell(6);
+                        tbval.rows[i].cells[6].innerHTML = data["Countries"][i-1]['NewDeaths'];
+                        
+                        
+                    }
+                }
+            )
+        }
+    </script>
+</body>
+
+</html>
